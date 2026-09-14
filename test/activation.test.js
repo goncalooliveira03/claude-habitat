@@ -90,6 +90,13 @@ test('a missing settings file is created, a corrupt one is never touched', () =>
   assert.equal(fs.readFileSync(file, 'utf8'), '{ broken');
 });
 
+test('turnOn writes atomically: no leftover .tmp file remains', () => {
+  write({ theme: 'dark' });
+  a.turnOn({ file, root: ROOT, config: DEFAULT_CONFIG });
+  const names = fs.readdirSync(path.dirname(file)).sort();
+  assert.deepEqual(names, ['settings.json', 'settings.json.bak']);
+});
+
 test('repairStatusLine fixes a stale path and reports whether it wrote', () => {
   write({ statusLine: { type: 'command', command: a.ourCommand(OLD_ROOT), refreshInterval: 1 } });
   assert.equal(a.repairStatusLine({ file, root: ROOT }), true);
