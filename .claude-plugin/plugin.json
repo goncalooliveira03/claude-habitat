@@ -1,0 +1,14 @@
+{
+  "name": "claude-habitat",
+  "version": "0.1.0",
+  "description": "A pixel-art mascot in your Claude Code status line that reacts to what Claude is doing. Windows only.",
+  "author": {
+    "name": "goncalooliveira03",
+    "url": "https://github.com/goncalooliveira03"
+  },
+  "homepage": "https://github.com/goncalooliveira03/claude-habitat",
+  "repository": "https://github.com/goncalooliveira03/claude-habitat",
+  "license": "MIT",
+  "keywords": ["statusline", "mascot", "pixel-art", "windows"],
+  "hooks": "./hooks/hooks.json"
+}

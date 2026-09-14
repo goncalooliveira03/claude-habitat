@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-habitat",
+  "description": "A pixel-art mascot for the Claude Code status line.",
+  "owner": {
+    "name": "goncalooliveira03",
+    "url": "https://github.com/goncalooliveira03"
+  },
+  "plugins": [
+    {
+      "name": "claude-habitat",
+      "description": "A pixel-art mascot in the status line that reacts to Claude's work. Windows only.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
