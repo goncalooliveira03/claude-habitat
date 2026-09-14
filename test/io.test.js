@@ -41,6 +41,24 @@ test('writeJsonAtomic round-trips and leaves no temp file', () => {
   assert.deepEqual(fs.readdirSync(path.dirname(file)), ['value.json']);
 });
 
+test('readStdin resolves with what was read so far if the stream errors', async () => {
+  const { PassThrough } = require('stream');
+  const stream = new PassThrough();
+  const promise = io.readStdin(stream);
+  stream.write('{"a":');
+  stream.emit('error', new Error('boom'));
+  assert.equal(await promise, '{"a":');
+});
+
+test('readStdin resolves with the full input on a normal end', async () => {
+  const { PassThrough } = require('stream');
+  const stream = new PassThrough();
+  const promise = io.readStdin(stream);
+  stream.write('abc');
+  stream.end();
+  assert.equal(await promise, 'abc');
+});
+
 test('appendLog starts over once the log passes the cap', () => {
   const file = path.join(io.dataDir(), 'test.log');
   fs.writeFileSync(file, 'x'.repeat(io.MAX_LOG_BYTES + 1));

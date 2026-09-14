@@ -43,6 +43,13 @@ test('PreToolUse records the tool and a short target', () => {
   assert.ok(bash.target.endsWith('…'));
 });
 
+test('PreToolUse target strips control characters that could inject terminal escapes', () => {
+  const command = 'echo \u001b[2J\u001b]0;pwned\u0007 done';
+  const r = applyEvent(null, ev('PreToolUse', { tool_name: 'Bash', tool_input: { command } }), T);
+  assert.ok(!/[\u0000-\u001f\u007f-\u009f]/.test(r.target));
+  assert.ok(r.target.startsWith('echo '));
+});
+
 test('subagent counter never goes below zero and keeps the state', () => {
   let r = applyEvent(null, ev('UserPromptSubmit'), T);
   r = applyEvent(r, ev('SubagentStart'), T + 1);
