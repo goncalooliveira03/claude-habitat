@@ -1,0 +1,10 @@
+{
+  "session_id": "test-session",
+  "model": { "display_name": "Opus 5" },
+  "context_window": { "used_percentage": 42 },
+  "cost": { "total_cost_usd": 0.84 },
+  "rate_limits": {
+    "five_hour": { "used_percentage": 31, "resets_at": 1790000000 },
+    "seven_day": { "used_percentage": 12, "resets_at": 1790500000 }
+  }
+}
