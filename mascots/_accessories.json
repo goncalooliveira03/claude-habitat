@@ -1,0 +1,33 @@
+{
+  "palette": {
+    ".": null,
+    "k": "#2b2d42",
+    "w": "#ffffff",
+    "r": "#ff5f57",
+    "y": "#ffd166",
+    "b": "#7db8ff"
+  },
+  "items": {
+    "exclaim": {
+      "rows": ["rr", "rr", "rr", "..", "rr"]
+    },
+    "alarm": {
+      "rows": ["r.r", "r.r", "r.r", "...", "r.r"]
+    },
+    "zzz": {
+      "rows": ["bbb.", "..b.", ".b..", "bbb."]
+    },
+    "sparkle": {
+      "rows": [".y.", "yyy", ".y."]
+    },
+    "sweat": {
+      "rows": [".b", "bw", "bb"]
+    },
+    "clone": {
+      "rows": [".kk.", "kwwk", "kwwk", "kkkk", "k..k"]
+    },
+    "hourglass": {
+      "rows": ["kkk", "yyy", ".y.", "yyy", "kkk"]
+    }
+  }
+}
