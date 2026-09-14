@@ -1,0 +1,266 @@
+{
+  "name": "Ghost",
+  "size": [
+    20,
+    20
+  ],
+  "palette": {
+    ".": null,
+    "k": "#2b2d42",
+    "o": "#e9ecef",
+    "d": "#adb5bd",
+    "e": "#1b1b1b",
+    "p": "#f4a6c1"
+  },
+  "bodyColor": "o",
+  "anchors": {
+    "top": [
+      16,
+      0
+    ],
+    "side": [
+      16,
+      8
+    ],
+    "cheek": [
+      14,
+      5
+    ]
+  },
+  "frames": {
+    "idle_1": [
+      "....................",
+      "....................",
+      ".......kk...........",
+      ".....kooook.........",
+      "...kooooooook.......",
+      "..kooooooooook......",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".koooeooooeoook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".oooooooooooooo.....",
+      ".ookkookkookkoo.....",
+      ".oo..oo..oo..oo.....",
+      ".kk..kk..kk..kk....."
+    ],
+    "idle_2": [
+      "....................",
+      "....................",
+      "....................",
+      ".......kk...........",
+      ".....kooook.........",
+      "...kooooooook.......",
+      "..kooooooooook......",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".koooeooooeoook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".oooooooooooooo.....",
+      ".ookkookkookkoo.....",
+      ".oo..oo..oo..oo....."
+    ],
+    "think_1": [
+      "....................",
+      "....................",
+      ".......kk...........",
+      ".....kooook.........",
+      "...kooooooook.......",
+      "..kooooooooook......",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooeooooeooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".oooooooooooooo.....",
+      ".ookkookkookkoo.....",
+      ".oo..oo..oo..oo.....",
+      ".kk..kk..kk..kk....."
+    ],
+    "think_2": [
+      "....................",
+      "....................",
+      ".......kk...........",
+      ".....kooook.........",
+      "...kooooooook.......",
+      "..kooooooooook......",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooeooooeook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".oooooooooooooo.....",
+      ".ookkookkookkoo.....",
+      ".oo..oo..oo..oo.....",
+      ".kk..kk..kk..kk....."
+    ],
+    "work_1": [
+      "....................",
+      "....................",
+      ".......kk...........",
+      ".....kooook.........",
+      "...kooooooook.......",
+      "..kooooooooook......",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".koooeooooeoook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".oooooooooooooo.....",
+      ".ookkookkookkoo.....",
+      ".oo..oo..oo..oo.....",
+      ".kk..kk..kk..kk....."
+    ],
+    "work_2": [
+      "....................",
+      "....................",
+      ".......kk...........",
+      ".....kooook.........",
+      "...kooooooook.......",
+      "..kooooooooook......",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".koooeooooeoook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".oooooooooooooo.....",
+      ".kkookkookkookk.....",
+      "...oo..oo..oo.......",
+      "...kk..kk..kk......."
+    ],
+    "ok_1": [
+      "....................",
+      "....................",
+      ".......kk...........",
+      ".....kooook.........",
+      "...kooooooook.......",
+      "..kooooooooook......",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooeeooooeeook.....",
+      ".kopoooooooopok.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".oooooooooooooo.....",
+      ".ookkookkookkoo.....",
+      ".oo..oo..oo..oo.....",
+      ".kk..kk..kk..kk....."
+    ],
+    "fail_1": [
+      "....................",
+      "....................",
+      ".......kk...........",
+      ".....kooook.........",
+      "...kooooooook.......",
+      "..kooooooooook......",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooeooeooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".koooododoooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".oooooooooooooo.....",
+      ".ookkookkookkoo.....",
+      ".oo..oo..oo..oo.....",
+      ".kk..kk..kk..kk....."
+    ],
+    "alert_1": [
+      "....................",
+      "....................",
+      ".......kk...........",
+      ".....kooook.........",
+      "...kooooooook.......",
+      "..kooooooooook......",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".koooeeooeeoook.....",
+      ".koooeeooeeoook.....",
+      ".kooooooooooook.....",
+      ".koooookkoooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".kooooooooooook.....",
+      ".oooooooooooooo.....",
+      ".ookkookkookkoo.....",
+      ".oo..oo..oo..oo.....",
+      ".kk..kk..kk..kk....."
+    ]
+  },
+  "states": {
+    "idle": [
+      "idle_1",
+      "idle_1",
+      "idle_1",
+      "idle_2"
+    ],
+    "thinking": [
+      "think_1",
+      "think_2"
+    ],
+    "working": [
+      "work_1",
+      "work_2"
+    ],
+    "success": [
+      "ok_1"
+    ],
+    "error": [
+      "fail_1"
+    ],
+    "attention": [
+      "alert_1",
+      "idle_1"
+    ],
+    "compacting": [
+      "idle_2"
+    ],
+    "done": [
+      "ok_1",
+      "idle_1"
+    ],
+    "sleeping": [
+      "idle_2"
+    ]
+  }
+}

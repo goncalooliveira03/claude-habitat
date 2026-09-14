@@ -31,6 +31,10 @@ test('bundled mascots keep the accessory corner clear', () => {
   }
 });
 
+test('the pack ships four mascots', () => {
+  assert.deepEqual(s.listMascots(), ['cat', 'ghost', 'octopus', 'robot']);
+});
+
 test('the accessories file has every item the frame builder uses', () => {
   const { palette, items } = s.loadAccessories();
   for (const name of ACCESSORIES) {
