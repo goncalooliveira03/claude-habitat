@@ -31,6 +31,11 @@ test('hooks.json registers every event as an async node hook', () => {
   }
 });
 
+test('plugin.json does not list the standard hooks file, which Claude Code already loads', () => {
+  const manifest = JSON.parse(fs.readFileSync(path.join(__dirname, '..', '.claude-plugin', 'plugin.json'), 'utf8'));
+  assert.equal(manifest.hooks, undefined);
+});
+
 test('writes the session record for an event', () => {
   handleHook({ session_id: 's1', hook_event_name: 'PreToolUse', tool_name: 'Bash', tool_input: { command: 'npm test' } }, T);
   assert.equal(read('s1').state, 'working');
